@@ -1,5 +1,6 @@
 package br.com.sincro.server;
 
+import br.com.sincro.util.Utils;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.SimpleChannelInboundHandler;
 
