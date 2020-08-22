@@ -7,12 +7,13 @@ import br.com.sincro.entity.PositionEntity;
 import br.com.sincro.repository.PositionRepository;
 
 @Service
-public class PostionService {
+public class PositionService {
 
 	@Autowired
 	private PositionRepository positionRepository;
 
 	public void save(PositionEntity position) {
+		System.out.println(position);
 		positionRepository.save(position);
 	}
 

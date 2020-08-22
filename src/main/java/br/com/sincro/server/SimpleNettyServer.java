@@ -17,7 +17,7 @@ public class SimpleNettyServer {
 		try {
 			SimpleNettyServerBootstrap simpleNettyServerBootstrap = new SimpleNettyServerBootstrap();
 			simpleNettyServerBootstrap.start(Integer.parseInt(environment.getProperty("server.port")));
-			// simpleNettyServerBootstrap.start(7081);
+			// simpleNettyServerBootstrap.start(7070);
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 
